@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tomer.edu.menuexample.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_change_background"
+        android:title="@string/Hello"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_change_background1"
+        android:title="@string/Hello1"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_change_background2"
+        android:title="@string/Hello2"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>
